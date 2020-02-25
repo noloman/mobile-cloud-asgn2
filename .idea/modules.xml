@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mobile-cloud-asgn2.iml" filepath="$PROJECT_DIR$/mobile-cloud-asgn2.iml" group="mobile-cloud-asgn2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile-cloud-asgn2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile-cloud-asgn2_main.iml" group="mobile-cloud-asgn2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile-cloud-asgn2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile-cloud-asgn2_test.iml" group="mobile-cloud-asgn2" />
+    </modules>
+  </component>
+</project>

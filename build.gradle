@@ -3,7 +3,7 @@ buildscript {
 		springBootVersion = '2.1.0.RELEASE'
 	}
     repositories {
-        maven { url "http://repo.spring.io/libs-snapshot" }
+        maven { url "https://repo.spring.io/libs-snapshot" }
         mavenLocal()
     }
     dependencies {
@@ -27,8 +27,8 @@ war {
 
 repositories {
     mavenCentral()
-    maven { url "http://repo.spring.io/libs-snapshot" }
-    maven { url "http://maven.springframework.org/milestone" }
+    maven { url "https://repo.spring.io/libs-snapshot" }
+    maven { url "https://maven.springframework.org/milestone" }
     
     flatDir {
     	dirs 'lib'
@@ -65,8 +65,6 @@ dependencies {
     compile(":autograder.spec:1.0.0")
     
     testCompile("junit:junit")
-}
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '5.0'
+    mainClassName = "org.magnum.mobilecloud.video.Application.java"
 }
