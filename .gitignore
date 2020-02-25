@@ -12,3 +12,9 @@ submission-packages
 videos
 bin
 build
+.gradle
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+**/build/
