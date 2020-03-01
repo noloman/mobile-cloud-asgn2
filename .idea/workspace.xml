@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a273b66-46d1-4bb1-bd6e-fb6545bbcb04" name="Default Changelist" comment="" />
+    <list default="true" id="0a273b66-46d1-4bb1-bd6e-fb6545bbcb04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/ResourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +36,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,13 +57,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AutoGradingTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.video.Application" />
       <module name="mobile-cloud-asgn2_main" />
@@ -63,8 +78,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoGradingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.magnum.mobilecloud.integration.test.AutoGradingTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutoGradingTest" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -94,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582661746194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make project compile">
+      <created>1582661788523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582661788523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,27 +156,97 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="make project compile" />
     <option name="LAST_COMMIT_MESSAGE" value="make project compile" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="118" key="#Project_Structure" timestamp="1582659743582">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="328" y="118" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1582659743582" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583065195731">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583065195731" />
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1583063875596">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1583063875596" />
     <state x="509" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582661558107">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="509" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582661558107" />
-    <state x="428" y="286" key="IDE.errors.dialog" timestamp="1582659754446">
+    <state x="603" y="247" width="880" height="579" key="#xdebugger.evaluate" timestamp="1583065716700">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="428" y="286" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582659754446" />
+    <state x="603" y="247" width="880" height="579" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1583065716700" />
+    <state width="1340" height="280" key="GridCell.Tab.0.bottom" timestamp="1583074885671">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
+    <state width="1340" height="280" key="GridCell.Tab.0.center" timestamp="1583074885671">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
+    <state width="1340" height="280" key="GridCell.Tab.0.left" timestamp="1583074885670">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885670" />
+    <state width="1340" height="280" key="GridCell.Tab.0.right" timestamp="1583074885671">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
+    <state width="1340" height="346" key="GridCell.Tab.1.bottom" timestamp="1583066223432">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
+    <state width="1340" height="346" key="GridCell.Tab.1.center" timestamp="1583066223432">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
+    <state width="1340" height="346" key="GridCell.Tab.1.left" timestamp="1583066223431">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223431" />
+    <state width="1340" height="346" key="GridCell.Tab.1.right" timestamp="1583066223432">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1340" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
+    <state x="428" y="286" key="IDE.errors.dialog" timestamp="1583074854881">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="428" y="286" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583074854881" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1582661587926">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1582661587926" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1582658956539">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583066907527">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1582658956539" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1583066907527" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1582661879166">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1582661879166" />
+    <state x="499" y="291" width="880" height="648" key="find.popup" timestamp="1583067190909">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="499" y="291" width="880" height="648" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583067190909" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583065472850">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583065472850" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
