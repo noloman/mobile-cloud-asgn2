@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a273b66-46d1-4bb1-bd6e-fb6545bbcb04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" afterDir="false" />
@@ -68,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Gradle.AutoGradingTest">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.video.Application" />
       <module name="mobile-cloud-asgn2_main" />
@@ -89,6 +88,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;org.magnum.mobilecloud.integration.test.AutoGradingTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoGradingTest.testFindByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.magnum.mobilecloud.integration.test.AutoGradingTest.testFindByName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,10 +146,12 @@
       <item itemvalue="Application.Application" />
       <item itemvalue="Gradle.AutoGradingTest" />
       <item itemvalue="Gradle.AutoGradingTest.testLikingTwice" />
+      <item itemvalue="Gradle.AutoGradingTest.testFindByName" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutoGradingTest" />
+        <item itemvalue="Gradle.AutoGradingTest.testFindByName" />
         <item itemvalue="Gradle.AutoGradingTest.testLikingTwice" />
         <item itemvalue="Application.Application" />
       </list>
@@ -175,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583074964891</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="make more tests pass">
+      <created>1583504231929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583504231929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +222,8 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="make project compile" />
     <MESSAGE value="test add get video and deny video without oauth tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="test add get video and deny video without oauth tests pass" />
+    <MESSAGE value="make more tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="make more tests pass" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -220,70 +249,81 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="603" y="247" width="880" height="579" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1583065716700" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1583503795830">
+    <state width="1407" height="311" key="GridCell.Tab.0.bottom" timestamp="1583510251298">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795830" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1583503795829">
+    <state width="1407" height="311" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583510251298" />
+    <state width="1407" height="311" key="GridCell.Tab.0.center" timestamp="1583510251297">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795829" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1583503795828">
+    <state width="1407" height="311" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583510251297" />
+    <state width="1407" height="311" key="GridCell.Tab.0.left" timestamp="1583510251297">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795828" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1583503795829">
+    <state width="1407" height="311" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583510251297" />
+    <state width="1407" height="311" key="GridCell.Tab.0.right" timestamp="1583510251298">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795829" />
-    <state width="1333" height="294" key="GridCell.Tab.1.bottom" timestamp="1583259700128">
+    <state width="1407" height="311" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583510251298" />
+    <state width="1638" height="294" key="GridCell.Tab.1.bottom" timestamp="1583508969726">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1333" height="294" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700128" />
-    <state width="1333" height="294" key="GridCell.Tab.1.center" timestamp="1583259700127">
+    <state width="1638" height="294" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583508969726" />
+    <state width="1638" height="294" key="GridCell.Tab.1.center" timestamp="1583508969726">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1333" height="294" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
-    <state width="1333" height="294" key="GridCell.Tab.1.left" timestamp="1583259700127">
+    <state width="1638" height="294" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583508969726" />
+    <state width="1638" height="294" key="GridCell.Tab.1.left" timestamp="1583508969726">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1333" height="294" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
-    <state width="1333" height="294" key="GridCell.Tab.1.right" timestamp="1583259700127">
+    <state width="1638" height="294" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583508969726" />
+    <state width="1638" height="294" key="GridCell.Tab.1.right" timestamp="1583508969726">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1333" height="294" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
-    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog" timestamp="1583503683454">
+    <state width="1638" height="294" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583508969726" />
+    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog" timestamp="1583510216608">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583503683454" />
+    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583510216608" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1583502440146">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1583502440146" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1583503739270">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583504068764">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1583503739270" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1583074967573">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1583504068764" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1583504235122">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583074967573" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583504235122" />
     <state x="499" y="291" width="880" height="648" key="find.popup" timestamp="1583261080011">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="499" y="291" width="880" height="648" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583261080010" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583352849231">
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583509230999">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583352849231" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583509230999" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java</url>
-          <line>280</line>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java</url>
+          <line>12</line>
+          <properties class="org.magnum.mobilecloud.video.repository.VideoRepository" method="findByName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java</url>
+          <line>15</line>
+          <properties class="org.magnum.mobilecloud.video.repository.VideoRepository" method="findByDurationLessThan">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
