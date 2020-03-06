@@ -20,17 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a273b66-46d1-4bb1-bd6e-fb6545bbcb04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/ResourcesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -47,6 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="ProjectId" id="1YJMFbbVH7M4v2YZFFepTDAUHE4" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,12 +66,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager" selected="Gradle.AutoGradingTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.video.Application" />
       <module name="mobile-cloud-asgn2_main" />
+      <option name="VM_PARAMETERS" value="-Dkeystore.file=src/main/resources/private/keystore -Dkeystore.pass=changeit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.magnum.mobilecloud.video.*" />
@@ -98,9 +103,35 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AutoGradingTest.testLikingTwice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.magnum.mobilecloud.integration.test.AutoGradingTest.testLikingTwice&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Gradle.AutoGradingTest" />
+      <item itemvalue="Gradle.AutoGradingTest.testLikingTwice" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutoGradingTest" />
+        <item itemvalue="Gradle.AutoGradingTest.testLikingTwice" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -137,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582661788523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test add get video and deny video without oauth tests pass">
+      <created>1583074964889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583074964891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +193,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="make project compile" />
-    <option name="LAST_COMMIT_MESSAGE" value="make project compile" />
+    <MESSAGE value="test add get video and deny video without oauth tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="test add get video and deny video without oauth tests pass" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -165,10 +204,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="328" y="118" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1582659743582" />
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583065195731">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583260107636">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583065195731" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583260107636" />
     <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1583063875596">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -181,62 +220,62 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="603" y="247" width="880" height="579" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1583065716700" />
-    <state width="1340" height="280" key="GridCell.Tab.0.bottom" timestamp="1583074885671">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1583503795830">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
-    <state width="1340" height="280" key="GridCell.Tab.0.center" timestamp="1583074885671">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795830" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1583503795829">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
-    <state width="1340" height="280" key="GridCell.Tab.0.left" timestamp="1583074885670">
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795829" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1583503795828">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885670" />
-    <state width="1340" height="280" key="GridCell.Tab.0.right" timestamp="1583074885671">
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795828" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1583503795829">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583074885671" />
-    <state width="1340" height="346" key="GridCell.Tab.1.bottom" timestamp="1583066223432">
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583503795829" />
+    <state width="1333" height="294" key="GridCell.Tab.1.bottom" timestamp="1583259700128">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
-    <state width="1340" height="346" key="GridCell.Tab.1.center" timestamp="1583066223432">
+    <state width="1333" height="294" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700128" />
+    <state width="1333" height="294" key="GridCell.Tab.1.center" timestamp="1583259700127">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
-    <state width="1340" height="346" key="GridCell.Tab.1.left" timestamp="1583066223431">
+    <state width="1333" height="294" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
+    <state width="1333" height="294" key="GridCell.Tab.1.left" timestamp="1583259700127">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223431" />
-    <state width="1340" height="346" key="GridCell.Tab.1.right" timestamp="1583066223432">
+    <state width="1333" height="294" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
+    <state width="1333" height="294" key="GridCell.Tab.1.right" timestamp="1583259700127">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1340" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583066223432" />
-    <state x="428" y="286" key="IDE.errors.dialog" timestamp="1583074854881">
+    <state width="1333" height="294" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583259700127" />
+    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog" timestamp="1583503683454">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="428" y="286" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583074854881" />
-    <state x="341" y="175" key="SettingsEditor" timestamp="1582661587926">
+    <state x="428" y="286" width="824" height="508" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583503683454" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1583502440146">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1582661587926" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1583066907527">
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1583502440146" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583503739270">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1583066907527" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1582661879166">
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1583503739270" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1583074967573">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1582661879166" />
-    <state x="499" y="291" width="880" height="648" key="find.popup" timestamp="1583067190909">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583074967573" />
+    <state x="499" y="291" width="880" height="648" key="find.popup" timestamp="1583261080011">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="499" y="291" width="880" height="648" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583067190909" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583065472850">
+    <state x="499" y="291" width="880" height="648" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583261080010" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583352849231">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583065472850" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1583352849231" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
